@@ -1,0 +1,16 @@
+PODS:
+  - MHTRunTimeEnvironment (0.1.0)
+
+DEPENDENCIES:
+  - MHTRunTimeEnvironment (from `../`)
+
+EXTERNAL SOURCES:
+  MHTRunTimeEnvironment:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MHTRunTimeEnvironment: 42910c9af07ab48ab5242abaf7549ceb3213d7c7
+
+PODFILE CHECKSUM: 002598fc1f56a8ae052d5f04b24c1cb1e7ba8694
+
+COCOAPODS: 1.16.2
