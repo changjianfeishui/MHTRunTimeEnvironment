@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = MHTRunTimeEnvironment;
+			productName = MHTRunTimeEnvironment;
 		};
 /* End PBXAggregateTarget section */
 
@@ -45,16 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D9AC3C63659D2FDCF8E9BE531D753EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0D9AC3C63659D2FDCF8E9BE531D753EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1C23E4DAD7F667A88A4D08AD8DB8E9B4 /* Pods-MHTRunTimeEnvironment_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MHTRunTimeEnvironment_Example-dummy.m"; sourceTree = "<group>"; };
 		1CE8BF4AC2D807A46885C4D47127E315 /* Pods-MHTRunTimeEnvironment_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHTRunTimeEnvironment_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1EC0A380AC78EC9D91CC0179A6A1C596 /* Pods-MHTRunTimeEnvironment_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MHTRunTimeEnvironment_Tests-umbrella.h"; sourceTree = "<group>"; };
 		24869C89AB7D969118FD17E85D62AA62 /* Pods-MHTRunTimeEnvironment_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MHTRunTimeEnvironment_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3AA2B6FF8610C10C6070A03530321A11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3AA2B6FF8610C10C6070A03530321A11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3B2E51212A3754475E32EB4B1F0E11E5 /* Pods-MHTRunTimeEnvironment_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MHTRunTimeEnvironment_Tests.modulemap"; sourceTree = "<group>"; };
 		3F71BE5A9C2F1AE6F439831EF46745A9 /* MHTRunTimeEnvironment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MHTRunTimeEnvironment.release.xcconfig; sourceTree = "<group>"; };
-		5406DE562CB71175C01DACA71BEA10A2 /* Pods-MHTRunTimeEnvironment_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MHTRunTimeEnvironment_Example"; path = Pods_MHTRunTimeEnvironment_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5406DE562CB71175C01DACA71BEA10A2 /* Pods_MHTRunTimeEnvironment_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHTRunTimeEnvironment_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E6C668D2F8D19D827D077E53A0CF0B /* Pods-MHTRunTimeEnvironment_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHTRunTimeEnvironment_Example.release.xcconfig"; sourceTree = "<group>"; };
 		69DE82D97BAEB7B102948342C207CF34 /* Pods-MHTRunTimeEnvironment_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MHTRunTimeEnvironment_Example-Info.plist"; sourceTree = "<group>"; };
 		6A4986FC06BAC3A8FE8F3D6D5A099525 /* Pods-MHTRunTimeEnvironment_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MHTRunTimeEnvironment_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -62,13 +63,13 @@
 		764656E50FB701EDFF81C4DA6C4B933F /* Pods-MHTRunTimeEnvironment_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHTRunTimeEnvironment_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9913F1E6292D2F7DA23210E1B0BA9426 /* Pods-MHTRunTimeEnvironment_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MHTRunTimeEnvironment_Example-umbrella.h"; sourceTree = "<group>"; };
 		9C8A731B551D427C56D29753683BFD67 /* Pods-MHTRunTimeEnvironment_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MHTRunTimeEnvironment_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B17F888938A81679C47423844C9EE002 /* MHTRunTimeEnvironment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MHTRunTimeEnvironment.framework; path = MHTRunTimeEnvironment/MHTRunTimeEnvironment.framework; sourceTree = "<group>"; };
 		CF8ECFA2C53416277A390563C387083D /* Pods-MHTRunTimeEnvironment_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MHTRunTimeEnvironment_Tests-dummy.m"; sourceTree = "<group>"; };
 		D2A2330AD12250E05C8DAD137C3FA71D /* Pods-MHTRunTimeEnvironment_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MHTRunTimeEnvironment_Tests-Info.plist"; sourceTree = "<group>"; };
-		D39F18E5BE2E913847E03E9EBEE5E0C2 /* MHTRunTimeEnvironment.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MHTRunTimeEnvironment.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D39F18E5BE2E913847E03E9EBEE5E0C2 /* MHTRunTimeEnvironment.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MHTRunTimeEnvironment.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		E9009D09484D3152E804154C28E310CC /* MHTRunTimeEnvironment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MHTRunTimeEnvironment.debug.xcconfig; sourceTree = "<group>"; };
-		E949DBDDC39E27F8C57CF7EE94EC9C71 /* Pods-MHTRunTimeEnvironment_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MHTRunTimeEnvironment_Tests"; path = Pods_MHTRunTimeEnvironment_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E949DBDDC39E27F8C57CF7EE94EC9C71 /* Pods_MHTRunTimeEnvironment_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHTRunTimeEnvironment_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38B1A97E19EC343074A315EDC0214A5 /* Pods-MHTRunTimeEnvironment_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MHTRunTimeEnvironment_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F498922CE0247A9608EC8EFCE6CE52FB /* Pods-MHTRunTimeEnvironment_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MHTRunTimeEnvironment_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -211,8 +212,8 @@
 		EC69F82C72BBD8642CF231C9FEFD5967 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5406DE562CB71175C01DACA71BEA10A2 /* Pods-MHTRunTimeEnvironment_Example */,
-				E949DBDDC39E27F8C57CF7EE94EC9C71 /* Pods-MHTRunTimeEnvironment_Tests */,
+				5406DE562CB71175C01DACA71BEA10A2 /* Pods_MHTRunTimeEnvironment_Example.framework */,
+				E949DBDDC39E27F8C57CF7EE94EC9C71 /* Pods_MHTRunTimeEnvironment_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -255,7 +256,7 @@
 			);
 			name = "Pods-MHTRunTimeEnvironment_Example";
 			productName = Pods_MHTRunTimeEnvironment_Example;
-			productReference = 5406DE562CB71175C01DACA71BEA10A2 /* Pods-MHTRunTimeEnvironment_Example */;
+			productReference = 5406DE562CB71175C01DACA71BEA10A2 /* Pods_MHTRunTimeEnvironment_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E8033485F3CD589335C2EF81B69A18E2 /* Pods-MHTRunTimeEnvironment_Tests */ = {
@@ -274,7 +275,7 @@
 			);
 			name = "Pods-MHTRunTimeEnvironment_Tests";
 			productName = Pods_MHTRunTimeEnvironment_Tests;
-			productReference = E949DBDDC39E27F8C57CF7EE94EC9C71 /* Pods-MHTRunTimeEnvironment_Tests */;
+			productReference = E949DBDDC39E27F8C57CF7EE94EC9C71 /* Pods_MHTRunTimeEnvironment_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -295,8 +296,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = EC69F82C72BBD8642CF231C9FEFD5967 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -482,8 +481,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

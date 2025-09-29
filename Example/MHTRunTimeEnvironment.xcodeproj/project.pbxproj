@@ -479,6 +479,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QVAXX52633;
+				EXCLUDED_ARCHS = "\"<Multiple values>\"";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MHTRunTimeEnvironment/MHTRunTimeEnvironment-Prefix.pch";
 				INFOPLIST_FILE = "MHTRunTimeEnvironment/MHTRunTimeEnvironment-Info.plist";
@@ -497,6 +499,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QVAXX52633;
+				EXCLUDED_ARCHS = "\"<Multiple values>\"";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MHTRunTimeEnvironment/MHTRunTimeEnvironment-Prefix.pch";
 				INFOPLIST_FILE = "MHTRunTimeEnvironment/MHTRunTimeEnvironment-Info.plist";
