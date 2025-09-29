@@ -7,7 +7,7 @@
 //
 
 #import "MHTViewController.h"
-
+#import <MHTRunTimeEnvironment/MHTRunTimeEnvironment.h>
 @interface MHTViewController ()
 
 @end

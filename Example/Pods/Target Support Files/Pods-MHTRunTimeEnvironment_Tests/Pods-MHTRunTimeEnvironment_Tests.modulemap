@@ -1,0 +1,6 @@
+framework module Pods_MHTRunTimeEnvironment_Tests {
+  umbrella header "Pods-MHTRunTimeEnvironment_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

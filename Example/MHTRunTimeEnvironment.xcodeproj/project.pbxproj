@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		140CDC0DB23A026A892F4DB4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		140CDC0DB23A026A892F4DB4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2AC56F316590561AF52EAA10 /* Pods_MHTRunTimeEnvironment_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHTRunTimeEnvironment_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C450CC3023F5E0D753D24D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2C450CC3023F5E0D753D24D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3E28F1DF5003C5D579BED923 /* Pods-MHTRunTimeEnvironment_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHTRunTimeEnvironment_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MHTRunTimeEnvironment_Tests/Pods-MHTRunTimeEnvironment_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D8FA62AF4E517D53944D794 /* Pods-MHTRunTimeEnvironment_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHTRunTimeEnvironment_Example.debug.xcconfig"; path = "Target Support Files/Pods-MHTRunTimeEnvironment_Example/Pods-MHTRunTimeEnvironment_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MHTRunTimeEnvironment_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHTRunTimeEnvironment_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +66,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90026F776DADEA1EA1D01152 /* Pods-MHTRunTimeEnvironment_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHTRunTimeEnvironment_Tests.release.xcconfig"; path = "Target Support Files/Pods-MHTRunTimeEnvironment_Tests/Pods-MHTRunTimeEnvironment_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A94FBA09B8E76A18491BAC05 /* Pods_MHTRunTimeEnvironment_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHTRunTimeEnvironment_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7B8A913BCF8E828162A873B /* MHTRunTimeEnvironment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MHTRunTimeEnvironment.podspec; path = ../MHTRunTimeEnvironment.podspec; sourceTree = "<group>"; };
+		D7B8A913BCF8E828162A873B /* MHTRunTimeEnvironment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MHTRunTimeEnvironment.podspec; path = ../MHTRunTimeEnvironment.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				3E28F1DF5003C5D579BED923 /* Pods-MHTRunTimeEnvironment_Tests.debug.xcconfig */,
 				90026F776DADEA1EA1D01152 /* Pods-MHTRunTimeEnvironment_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				872055CF0880A95708079A54 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = changjianfeishui;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = QVAXX52633;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +259,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -337,24 +339,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		872055CF0880A95708079A54 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MHTRunTimeEnvironment_Example/Pods-MHTRunTimeEnvironment_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MHTRunTimeEnvironment/MHTRunTimeEnvironment.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MHTRunTimeEnvironment.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MHTRunTimeEnvironment_Example/Pods-MHTRunTimeEnvironment_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -494,6 +478,7 @@
 			baseConfigurationReference = 4D8FA62AF4E517D53944D794 /* Pods-MHTRunTimeEnvironment_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QVAXX52633;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MHTRunTimeEnvironment/MHTRunTimeEnvironment-Prefix.pch";
 				INFOPLIST_FILE = "MHTRunTimeEnvironment/MHTRunTimeEnvironment-Info.plist";
@@ -510,6 +495,7 @@
 			baseConfigurationReference = 723029B5948245328E90D131 /* Pods-MHTRunTimeEnvironment_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QVAXX52633;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MHTRunTimeEnvironment/MHTRunTimeEnvironment-Prefix.pch";
 				INFOPLIST_FILE = "MHTRunTimeEnvironment/MHTRunTimeEnvironment-Info.plist";
