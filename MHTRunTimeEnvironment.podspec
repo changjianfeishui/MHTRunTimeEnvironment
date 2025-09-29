@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MHTRunTimeEnvironment'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '棉花糖网络环境配置.'
 
 # This description is used to generate tags and improve search results.
@@ -28,10 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/changjianfeishui/MHTRunTimeEnvironment.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.ios.vendored_frameworks = 'MHTRunTimeEnvironment/MHTRunTimeEnvironment.framework'
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' =>'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' =>'arm64' }
 
   # s.resource_bundles = {
   #   'MHTRunTimeEnvironment' => ['MHTRunTimeEnvironment/Assets/*.png']
