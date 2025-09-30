@@ -1,6 +1,6 @@
 {
   "name": "MHTRunTimeEnvironment",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "summary": "棉花糖网络环境配置.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/changjianfeishui/MHTRunTimeEnvironment",
@@ -13,18 +13,12 @@
   },
   "source": {
     "git": "https://github.com/changjianfeishui/MHTRunTimeEnvironment.git",
-    "tag": "0.1.3"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "13.0"
   },
   "ios": {
-    "vendored_frameworks": "MHTRunTimeEnvironment/MHTRunTimeEnvironment.framework"
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    "vendored_frameworks": "MHTRunTimeEnvironment/MHTRunTimeEnvironment.xcframework"
   }
 }
